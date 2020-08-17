@@ -1,0 +1,32 @@
+{
+  "name": "cnx-sfmc-api",
+  "version": "1.0.0",
+  "description": "POC to establish api integration between SFMC and external site using MC rest api.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binks1979/nodejs-sfmcapi"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "Salesforce",
+    "MarketingCloud",
+    "Heroku"
+  ],
+  "author": "Binesh Kallingal",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "circular-json": "^0.5.9",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
